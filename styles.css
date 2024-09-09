@@ -1,0 +1,208 @@
+:root {
+  --primary: #fdc435;
+  --font-primary: #25282b;
+  --font-secondary: #828282;
+  --font-teritary: #9a9fa8;
+}
+
+@font-face {
+  font-family: "playfair-display-bold";
+  src: url("/public/fonts/PlayfairDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "comfortaa-regular";
+  src: url("/public/fonts/Comfortaa-Regular.ttf");
+}
+@font-face {
+  font-family: "raleway-medium";
+  src: url("/public/fonts/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: "nunito-regular";
+  src: url("/public/fonts/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: "nunito-bold";
+  src: url("/public/fonts/Nunito-Bold.ttf");
+}
+@font-face {
+  font-family: "roboto-medium";
+  src: url("/public/fonts/Roboto-Medium.ttf");
+}
+
+.body {
+  background-color: #f9faff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--font-primary);
+}
+
+.wrapper {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.headerName {
+  font-family: "comfortaa-regular";
+  color: var(--font-primary);
+  font-size: 18px;
+}
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  width: 291px;
+}
+
+.headerNavLink {
+  font-family: "raleway-medium";
+  color: var(--font-primary);
+  font-size: 18px;
+}
+
+.intro {
+  margin-bottom: 300px;
+}
+
+.introLeft {
+  padding-top: 60px;
+}
+
+.introLeftDesig {
+  font-family: "nunito-bold";
+  font-size: 20px;
+  color: var(--primary);
+  padding-bottom: 12px;
+}
+
+.introLeftName {
+  font-family: "playfair-display-bold";
+  font-size: 64px;
+  padding-bottom: 12px;
+}
+
+.introLeftDesc {
+  font-family: "nunito-regular";
+  font-size: 24px;
+  columns: var(--font-secondary);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectsTitleName {
+  font-family: "playfair-display-bold";
+  font-size: 48px;
+}
+
+.projectsTitleRectangle {
+  width: 100px;
+  height: 5px;
+  background-color: #fdc435;
+  border-radius: 5px;
+}
+
+.projectsList {
+  padding-top: 50px;
+}
+
+.projectsListProject {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  width: 992px;
+  height: 524px;
+  border-radius: 24px;
+}
+
+.projectsListProjectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 496px;
+  height: 524px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.projectsListProjectName {
+  font-family: "playfair-display-bold";
+  font-size: 40px;
+  color: var(--font-primary);
+  padding-bottom: 20px;
+}
+
+.projectsListProjectDesc {
+  font-family: "nunito-regular";
+  font-size: 18px;
+  color: #828282;
+  padding-bottom: 20px;
+}
+
+.projectsListProjectButton {
+  width: 150px;
+  height: 43px;
+  border: 1px solid var(--font-primary);
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsListProjectButtonLink {
+  font-family: "roboto-medium";
+  font-size: 18px;
+  color: var(--font-primary);
+}
+
+.projectsListProjectImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.projectsListProjectImage {
+  height: 524px;
+}
+
+.contactWrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactLogo {
+  object-fit: contain;
+  width: 37.5px;
+}
