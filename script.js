@@ -1,21 +1,16 @@
 console.log("hello world");
 
 projects = {
-  "Project Name1": [
+  "Sleep Analysis": [
     1,
-    "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+    "Sleep Analysis app desc",
     "Project Link",
     "public/images/test.webp",
   ],
-  "Project Name2": [
-    2,
-    "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
-    "Project Link",
-    "public/images/test.webp",
-  ],
-  "Project Name3": [
+  Pilly: [2, "Pilly desc", "Project Link", "public/images/test.webp"],
+  "Mood Search - Aritzia Extension ": [
     3,
-    "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+    "Mood search desc",
     "Project Link",
     "public/images/test.webp",
   ],
@@ -78,4 +73,25 @@ for (const [key, value] of Object.entries(projects)) {
   }
 
   projectDiv.appendChild(newProj);
+}
+
+let btn = document.getElementById("backToTopButton");
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 600 ||
+    document.documentElement.scrollTop > 600
+  ) {
+    btn.style.opacity = "1";
+  } else {
+    btn.style.opacity = "0";
+  }
+}
+
+function backToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
