@@ -11,27 +11,27 @@ html {
 
 @font-face {
   font-family: "playfair-display-bold";
-  src: url("/public/fonts/PlayfairDisplay-Bold.ttf");
+  src: url("/fonts/PlayfairDisplay-Bold.ttf");
 }
 @font-face {
   font-family: "comfortaa-regular";
-  src: url("/public/fonts/Comfortaa-Regular.ttf");
+  src: url("/fonts/Comfortaa-Regular.ttf");
 }
 @font-face {
   font-family: "raleway-medium";
-  src: url("/public/fonts/Raleway-Medium.ttf");
+  src: url("/fonts/Raleway-Medium.ttf");
 }
 @font-face {
   font-family: "nunito-regular";
-  src: url("/public/fonts/Nunito-Regular.ttf");
+  src: url("/fonts/Nunito-Regular.ttf");
 }
 @font-face {
   font-family: "nunito-bold";
-  src: url("/public/fonts/Nunito-Bold.ttf");
+  src: url("/fonts/Nunito-Bold.ttf");
 }
 @font-face {
   font-family: "roboto-medium";
-  src: url("/public/fonts/Roboto-Medium.ttf");
+  src: url("/fonts/Roboto-Medium.ttf");
 }
 
 .body {

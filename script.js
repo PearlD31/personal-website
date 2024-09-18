@@ -1,18 +1,16 @@
-console.log("hello world");
-
-projects = {
+let projects = {
   "Sleep Analysis": [
     1,
     "Sleep Analysis app desc",
     "Project Link",
-    "public/images/test.webp",
+    "/images/test.webp",
   ],
-  Pilly: [2, "Pilly desc", "Project Link", "public/images/test.webp"],
+  Pilly: [2, "Pilly desc", "Project Link", "/images/test.webp"],
   "Mood Search - Aritzia Extension ": [
     3,
     "Mood search desc",
     "Project Link",
-    "public/images/test.webp",
+    "/images/test.webp",
   ],
 };
 
