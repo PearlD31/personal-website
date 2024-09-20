@@ -3,14 +3,14 @@ let projects = {
     1,
     "Sleep Analysis app desc",
     "https://www.figma.com/design/roLvjduoLSCJ04636HfJcl/Untitled?node-id=1-2&m=dev&t=LUDiDn4tkx9FJ6Ox-1",
-    "/images/test.webp",
+    "/images/load.gif",
   ],
-  Pilly: [2, "Pilly desc", "https://www.figma.com/design/Ytlajbxfj1NCoFvZmnXKgE/Pilly?node-id=0-1&m=dev&t=bLych24l3wman2kq-1", "/images/test.webp"],
+  Pilly: [2, "Pilly desc", "https://www.figma.com/design/Ytlajbxfj1NCoFvZmnXKgE/Pilly?node-id=0-1&m=dev&t=bLych24l3wman2kq-1", "/images/PillyPreview.png"],
   "Mood Search - Aritzia Extension ": [
     3,
     "Mood search desc",
     "https://www.figma.com/design/1CUP0BkR39jxQvpbzRjMuo/Aritizia-Extension---MoodSearch?node-id=0-1&m=dev&t=8OegB4cJZqudMtSv-1",
-    "/images/test.webp",
+    "/images/MoodsearchPreview.png",
   ],
 };
 
@@ -37,6 +37,7 @@ for (const [key, value] of Object.entries(projects)) {
 
   let projLink = document.createElement("a");
   projLink.className = "projectsListProjectButtonLink";
+  projLink.target = "_blank";
   projLink.href = value[2];
   projLink.innerHTML = "View Project";
   projButton.appendChild(projLink);
