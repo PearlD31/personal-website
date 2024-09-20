@@ -204,6 +204,7 @@ a:visited {
 }
 
 .projectsListProjectImage {
+  object-fit: cover;
   height: 524px;
 }
 
