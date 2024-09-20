@@ -2,14 +2,14 @@ let projects = {
   "Sleep Analysis": [
     1,
     "Sleep Analysis app desc",
-    "https://www.figma.com/design/Ytlajbxfj1NCoFvZmnXKgE/Pilly?node-id=0-1&m=dev&t=bLych24l3wman2kq-1",
+    "https://www.figma.com/design/roLvjduoLSCJ04636HfJcl/Untitled?node-id=1-2&m=dev&t=LUDiDn4tkx9FJ6Ox-1",
     "/images/test.webp",
   ],
-  Pilly: [2, "Pilly desc", "Project Link", "/images/test.webp"],
+  Pilly: [2, "Pilly desc", "https://www.figma.com/design/Ytlajbxfj1NCoFvZmnXKgE/Pilly?node-id=0-1&m=dev&t=bLych24l3wman2kq-1", "/images/test.webp"],
   "Mood Search - Aritzia Extension ": [
     3,
     "Mood search desc",
-    "Project Link",
+    "https://www.figma.com/design/1CUP0BkR39jxQvpbzRjMuo/Aritizia-Extension---MoodSearch?node-id=0-1&m=dev&t=8OegB4cJZqudMtSv-1",
     "/images/test.webp",
   ],
 };
