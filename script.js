@@ -2,7 +2,7 @@ let projects = {
   "Sleep Analysis": [
     1,
     "Sleep Analysis app desc",
-    "Project Link",
+    "https://www.figma.com/design/Ytlajbxfj1NCoFvZmnXKgE/Pilly?node-id=0-1&m=dev&t=bLych24l3wman2kq-1",
     "/images/test.webp",
   ],
   Pilly: [2, "Pilly desc", "Project Link", "/images/test.webp"],
